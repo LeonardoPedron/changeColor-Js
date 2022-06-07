@@ -6,8 +6,7 @@ console.log('CONNECT SCRIPT.JS');
     the " body " with the click of a button
 */
 document.addEventListener('DOMContentLoaded', () => {
-    let body = document.querySelector('body'); 
-    body.style.background = `(255, 255, 255, 1)`;
+    let body = document.querySelector('body');
 
     let btn = document.querySelector('div#changeColor');
     let txt = document.querySelector('h4#rgbaTxt');
