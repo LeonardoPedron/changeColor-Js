@@ -1,5 +1,10 @@
 console.log('CONNECT SCRIPT.JS');
+/* 
+    [ ChangeColor ] 
 
+    changes the background color of 
+    the " body " with the click of a button
+*/
 document.addEventListener('DOMContentLoaded', () => {
     let body = document.querySelector('body'); 
     body.style.background = `(255, 255, 255, 1)`;
